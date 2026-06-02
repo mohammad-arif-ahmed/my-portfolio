@@ -8,6 +8,7 @@ import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
 import { FaWhatsapp } from "react-icons/fa";
+import { Toaster } from "react-hot-toast";
 function App() {
   return (
     <div className="min-h-screen bg-white text-slate-900 dark:bg-slate-950 dark:text-white duration-300">
@@ -21,6 +22,10 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <Toaster
+        position="top-right"
+        reverseOrder={false}
+      />
       <a
         href="https://wa.me/8801616188734"
         target="_blank"
