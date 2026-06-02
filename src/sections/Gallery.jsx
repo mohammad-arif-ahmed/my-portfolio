@@ -1,26 +1,33 @@
+import networkRack from "../assets/images/gallery/network-rack.jpg";
+import cctvInstall from "../assets/images/gallery/cctv-install.jpg";
+import mikrotik from "../assets/images/gallery/mikrotik.jpg";
+import hardwareRepair from "../assets/images/gallery/hardware-repair.jpg";
+import cableManagement from "../assets/images/gallery/cable-management.jpg";
+import itSupport from "../assets/images/gallery/it-support.jpg";
+
 const galleryImages = [
   {
-    image: "/src/assets/images/gallery/network-rack.jpg",
+    image: networkRack,
     title: "Network Rack Setup",
   },
   {
-    image: "/src/assets/images/gallery/cctv-install.jpg",
+    image: cctvInstall,
     title: "CCTV Installation",
   },
   {
-    image: "/src/assets/images/gallery/mikrotik.jpg",
+    image: mikrotik,
     title: "MikroTik Configuration",
   },
   {
-    image: "/src/assets/images/gallery/hardware-repair.jpg",
+    image: hardwareRepair,
     title: "Hardware Troubleshooting",
   },
   {
-    image: "/src/assets/images/gallery/cable-management.jpg",
+    image: cableManagement,
     title: "Cable Management",
   },
   {
-    image: "/src/assets/images/gallery/it-support.jpg",
+    image: itSupport,
     title: "IT Support",
   },
 ];
@@ -32,7 +39,6 @@ const Gallery = () => {
       className="max-w-7xl mx-auto px-6 py-16 scroll-mt-24"
     >
       <div className="text-center mb-12">
-
         <h2 className="text-4xl font-bold">
           Work Gallery
         </h2>
@@ -40,11 +46,9 @@ const Gallery = () => {
         <p className="text-slate-500 mt-4">
           Some of my practical IT & Networking works
         </p>
-
       </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
         {galleryImages.map((item, index) => (
           <div
             key={index}
@@ -54,6 +58,8 @@ const Gallery = () => {
             rounded-2xl
             border border-slate-700
             relative
+            hover:border-blue-500
+            duration-300
             "
           >
             <img
@@ -78,14 +84,12 @@ const Gallery = () => {
               flex items-center justify-center
               "
             >
-              <h3 className="text-white text-xl font-semibold">
+              <h3 className="text-white text-xl font-semibold text-center px-4">
                 {item.title}
               </h3>
             </div>
-
           </div>
         ))}
-
       </div>
     </section>
   );
