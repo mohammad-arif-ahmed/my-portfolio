@@ -6,27 +6,25 @@ import {
 
 import ProjectModal from "../components/ProjectModal";
 
-import skillswap from "../assets/images/projects/skillswap.png";
+import swiftcart from "../assets/images/projects/swiftcart.png";
 import learninghub from "../assets/images/projects/learninghub.png";
 import heroGallery from "../assets/images/projects/hero-gallery.png";
-import portfolio from "../assets/images/projects/portfolio.png";
+import contestHub from "../assets/images/projects/contest.png";
 
 const projects = [
-  {
-    title: "SkillSwap Platform",
+ {
+    title: "SwiftCart E-Commerce",
     category: "Web Development",
-    image: skillswap,
-    live: "https://your-live-link.com",
-    github: "https://github.com/your-repo",
+    image: swiftcart, 
+    live: "https://your-live-link.com", 
+    github: "https://github.com/mohammad-arif-ahmed/your-repo-name", 
     tech: [
-      "React",
+      "HTML",
       "Tailwind CSS",
-      "Firebase",
-      "Express.js",
-      "MongoDB",
+      "JavaScript",
     ],
     description:
-      "A skill sharing platform where users can offer and exchange skills with other users.",
+      "A fully responsive e-commerce web application inspired by platforms like Daraz, featuring dynamic product grids, category filtering, and an interactive shopping cart system.",
   },
 
   {
@@ -59,19 +57,21 @@ const projects = [
       "Interactive hero gallery showcasing heroes with responsive design and modern UI.",
   },
 
-  {
-    title: "Portfolio Website",
+ {
+    title: "ContestHub",
     category: "Web Development",
-    image: portfolio,
-    live: "https://your-live-link.com",
-    github: "https://github.com/your-repo",
+    image: contestHub, 
+    live: "https://your-live-link.com", 
+    github: "https://github.com/mohammad-arif-ahmed/your-repo-name", 
     tech: [
       "React",
       "Tailwind CSS",
-      "Framer Motion",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
     ],
     description:
-      "Personal portfolio website showcasing my IT and Web Development journey.",
+      "A dynamic contest management platform where users can discover, participate, and manage various online contests with real-time updates.",
   },
 ];
 
