@@ -3,7 +3,7 @@ import cctvInstall from "../assets/images/gallery/cctv-install.jpg";
 import mikrotik from "../assets/images/gallery/mikrotik.jpg";
 import hardwareRepair from "../assets/images/gallery/hardware-repair.jpg";
 import cableManagement from "../assets/images/gallery/cable-management.jpg";
-import itSupport from "../assets/images/gallery/it-support.jpg";
+import itSupport from "../assets/images/gallery/it-support.jpeg";
 
 const galleryImages = [
   {
