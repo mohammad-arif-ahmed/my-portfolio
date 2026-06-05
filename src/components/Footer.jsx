@@ -32,7 +32,6 @@ const Footer = () => {
           "
         >
           <div>
-
             <h3 className="text-2xl font-bold">
               Md. Arif
             </h3>
@@ -40,49 +39,69 @@ const Footer = () => {
             <p className="text-slate-500 mt-2">
               IT Executive | Web Developer
             </p>
-
           </div>
 
+          {/* সোশ্যাল মিডিয়া লিংক সেকশন */}
           <div className="flex gap-4">
 
+            {/* Facebook */}
             <a
-              href="#"
+              href="https://www.facebook.com/share/1HwGkskm2A/" 
+              target="_blank"
+              rel="noreferrer"
               className="
               p-3
               rounded-full
               border border-slate-700
               hover:border-blue-500
+              text-slate-400
+              hover:text-blue-500
+              transition
+              duration-300
               "
             >
-              <FaFacebook />
+              <FaFacebook size={20} />
             </a>
 
+            {/* LinkedIn */}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/md-arif-ahmed-1a7a83371/" 
+              target="_blank"
+              rel="noreferrer"
               className="
               p-3
               rounded-full
               border border-slate-700
               hover:border-blue-500
+              text-slate-400
+              hover:text-blue-500
+              transition
+              duration-300
               "
             >
-              <FaLinkedin />
+              <FaLinkedin size={20} />
             </a>
 
+            {/* GitHub */}
             <a
-              href="#"
+              href="https://github.com/mohammad-arif-ahmed" 
+              target="_blank"
+              rel="noreferrer"
               className="
               p-3
               rounded-full
               border border-slate-700
               hover:border-blue-500
+              text-slate-400
+              hover:text-blue-500
+              transition
+              duration-300
               "
             >
-              <FaGithub />
+              <FaGithub size={20} />
             </a>
 
           </div>
-
         </div>
 
         <div
